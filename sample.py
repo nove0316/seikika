@@ -46,7 +46,7 @@ if kadai == '1':
 #コマンドライン引数に'2'が入力された時、第一正規化の逆変換をしたtsvファイルを出力
 if kadai == '2':
 
-    #出力するファイル名はnomalized'+元のファイル名
+    #出力するファイル名はreversed'+元のファイル名
     with open('reversed_' + file_path, mode='w', encoding='ascii') as fo:
         tsv_writer = csv.writer(fo, delimiter='\t')
 
