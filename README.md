@@ -13,7 +13,7 @@ sample.py sample.tsv 1
 normalized_sample.tsv   
 
 *入力例2  
-sample.py sample.tsv 2
+sample.py sample.tsv 2  
 出力ファイル  
 reversed_sample.tsv   
 
